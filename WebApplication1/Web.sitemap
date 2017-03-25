@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Menu"  description="">
+        <siteMapNode url="~/About" title="Acerca de"  description="" />
+        <siteMapNode url="~/Contact" title="Contacto"  description="" />
+      
+        <siteMapNode url="~/User" title="User"  description="" >
+          <siteMapNode url="~/User/ListSubjects" title="listado de asignaturas"  description="" />
+          <!--<siteMapNode url="~/User/CreateListSubject" title="creacion de listado de asignaturas para el usuario"  description="" />-->
+        </siteMapNode>
+
+      <siteMapNode url="~/Admin" title="Admin"  description="" >
+        <siteMapNode url="~/Admin/SubjectList" title="listado de asignaturas para admin"  description="" />
+        <siteMapNode url="~/Admin/CreateListSubject" title="creacion de listado de asignaturas para el usuario"  description="" />
+      </siteMapNode>
+      
+    </siteMapNode>
+</siteMap>
